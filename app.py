@@ -35,4 +35,4 @@ def init_db():
 if __name__ == '__main__':
     db.init_app(app)
     init_db()
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
